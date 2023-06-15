@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A13B22A3BA295003B165D /* ColorCodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13B12A3BA295003B165D /* ColorCodeScannerApp.swift */; };
+		EA5A13B62A3BA297003B165D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A13B52A3BA297003B165D /* Assets.xcassets */; };
+		EA5A13B92A3BA297003B165D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A13B82A3BA297003B165D /* Preview Assets.xcassets */; };
+		EA5A13C22A3BA2F3003B165D /* ColorCodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13B12A3BA295003B165D /* ColorCodeScannerApp.swift */; };
+		EA5A13C52A3BA2F3003B165D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A13B82A3BA297003B165D /* Preview Assets.xcassets */; };
+		EA5A13C62A3BA2F3003B165D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A13B52A3BA297003B165D /* Assets.xcassets */; };
+		EA5A13CD2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13CC2A3BA3E6003B165D /* ColorQRScanner.swift */; };
+		EA5A13CE2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13CC2A3BA3E6003B165D /* ColorQRScanner.swift */; };
+		EA5A13D12A3BA3F0003B165D /* SuccessEventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13CF2A3BA3F0003B165D /* SuccessEventPage.swift */; };
+		EA5A13D22A3BA3F0003B165D /* SuccessEventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13CF2A3BA3F0003B165D /* SuccessEventPage.swift */; };
+		EA5A13D32A3BA3F0003B165D /* MainScannerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13D02A3BA3F0003B165D /* MainScannerWindow.swift */; };
+		EA5A13D42A3BA3F0003B165D /* MainScannerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13D02A3BA3F0003B165D /* MainScannerWindow.swift */; };
+		EA5A13DA2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13D92A3BA4A8003B165D /* JabcodeDecoder.m */; };
+		EA5A13DB2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13D92A3BA4A8003B165D /* JabcodeDecoder.m */; };
+		EA5A13DE2A3BA51F003B165D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */; };
+		EA5A13DF2A3BA528003B165D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */; };
+		EA5A13E12A3BA53D003B165D /* libjabcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13E02A3BA53D003B165D /* libjabcode.a */; };
+		EA5A13E32A3BA54D003B165D /* libjabcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13E22A3BA54D003B165D /* libjabcode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA5A13AE2A3BA295003B165D /* ColorCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A13B12A3BA295003B165D /* ColorCodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCodeScannerApp.swift; sourceTree = "<group>"; };
+		EA5A13B52A3BA297003B165D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5A13B82A3BA297003B165D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA5A13CA2A3BA2F3003B165D /* ColorCodeScanner (Simulator).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorCodeScanner (Simulator).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A13CC2A3BA3E6003B165D /* ColorQRScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorQRScanner.swift; sourceTree = "<group>"; };
+		EA5A13CF2A3BA3F0003B165D /* SuccessEventPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessEventPage.swift; sourceTree = "<group>"; };
+		EA5A13D02A3BA3F0003B165D /* MainScannerWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScannerWindow.swift; sourceTree = "<group>"; };
+		EA5A13D62A3BA4A8003B165D /* ColorCodeScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorCodeScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA5A13D72A3BA4A8003B165D /* ColorCodeScanner (Simulator)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorCodeScanner (Simulator)-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA5A13D82A3BA4A8003B165D /* JabcodeDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JabcodeDecoder.h; sourceTree = "<group>"; };
+		EA5A13D92A3BA4A8003B165D /* JabcodeDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JabcodeDecoder.m; sourceTree = "<group>"; };
+		EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA5A13E02A3BA53D003B165D /* libjabcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjabcode.a; path = ColorCodeScanner/jabcode/libs/device/libjabcode.a; sourceTree = "<group>"; };
+		EA5A13E22A3BA54D003B165D /* libjabcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjabcode.a; path = ColorCodeScanner/jabcode/libs/simulator/libjabcode.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A13AB2A3BA295003B165D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13E12A3BA53D003B165D /* libjabcode.a in Frameworks */,
+				EA5A13DE2A3BA51F003B165D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A13C32A3BA2F3003B165D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13E32A3BA54D003B165D /* libjabcode.a in Frameworks */,
+				EA5A13DF2A3BA528003B165D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A13A52A3BA295003B165D = {
+			isa = PBXGroup;
+			children = (
+				EA5A13B02A3BA295003B165D /* ColorCodeScanner */,
+				EA5A13AF2A3BA295003B165D /* Products */,
+				EA5A13DC2A3BA51F003B165D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A13AF2A3BA295003B165D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13AE2A3BA295003B165D /* ColorCodeScanner.app */,
+				EA5A13CA2A3BA2F3003B165D /* ColorCodeScanner (Simulator).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A13B02A3BA295003B165D /* ColorCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13D52A3BA48D003B165D /* Helpers */,
+				EA5A13CB2A3BA3C6003B165D /* Views */,
+				EA5A13B12A3BA295003B165D /* ColorCodeScannerApp.swift */,
+				EA5A13B52A3BA297003B165D /* Assets.xcassets */,
+				EA5A13B72A3BA297003B165D /* Preview Content */,
+			);
+			path = ColorCodeScanner;
+			sourceTree = "<group>";
+		};
+		EA5A13B72A3BA297003B165D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13B82A3BA297003B165D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA5A13CB2A3BA3C6003B165D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13CC2A3BA3E6003B165D /* ColorQRScanner.swift */,
+				EA5A13D02A3BA3F0003B165D /* MainScannerWindow.swift */,
+				EA5A13CF2A3BA3F0003B165D /* SuccessEventPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA5A13D52A3BA48D003B165D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13D82A3BA4A8003B165D /* JabcodeDecoder.h */,
+				EA5A13D92A3BA4A8003B165D /* JabcodeDecoder.m */,
+				EA5A13D62A3BA4A8003B165D /* ColorCodeScanner-Bridging-Header.h */,
+				EA5A13D72A3BA4A8003B165D /* ColorCodeScanner (Simulator)-Bridging-Header.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EA5A13DC2A3BA51F003B165D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13E02A3BA53D003B165D /* libjabcode.a */,
+				EA5A13E22A3BA54D003B165D /* libjabcode.a */,
+				EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5A13AD2A3BA295003B165D /* ColorCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A13BC2A3BA297003B165D /* Build configuration list for PBXNativeTarget "ColorCodeScanner" */;
+			buildPhases = (
+				EA5A13AA2A3BA295003B165D /* Sources */,
+				EA5A13AB2A3BA295003B165D /* Frameworks */,
+				EA5A13AC2A3BA295003B165D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorCodeScanner;
+			productName = ColorCodeScanner;
+			productReference = EA5A13AE2A3BA295003B165D /* ColorCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5A13BF2A3BA2F3003B165D /* ColorCodeScanner (Simulator) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A13C72A3BA2F3003B165D /* Build configuration list for PBXNativeTarget "ColorCodeScanner (Simulator)" */;
+			buildPhases = (
+				EA5A13C02A3BA2F3003B165D /* Sources */,
+				EA5A13C32A3BA2F3003B165D /* Frameworks */,
+				EA5A13C42A3BA2F3003B165D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorCodeScanner (Simulator)";
+			productName = ColorCodeScanner;
+			productReference = EA5A13CA2A3BA2F3003B165D /* ColorCodeScanner (Simulator).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A13A62A3BA295003B165D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EA5A13AD2A3BA295003B165D = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+					EA5A13BF2A3BA2F3003B165D = {
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = EA5A13A92A3BA295003B165D /* Build configuration list for PBXProject "ColorCodeScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5A13A52A3BA295003B165D;
+			productRefGroup = EA5A13AF2A3BA295003B165D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A13AD2A3BA295003B165D /* ColorCodeScanner */,
+				EA5A13BF2A3BA2F3003B165D /* ColorCodeScanner (Simulator) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5A13AC2A3BA295003B165D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13B92A3BA297003B165D /* Preview Assets.xcassets in Resources */,
+				EA5A13B62A3BA297003B165D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A13C42A3BA2F3003B165D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13C52A3BA2F3003B165D /* Preview Assets.xcassets in Resources */,
+				EA5A13C62A3BA2F3003B165D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A13AA2A3BA295003B165D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13CD2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */,
+				EA5A13DA2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */,
+				EA5A13D12A3BA3F0003B165D /* SuccessEventPage.swift in Sources */,
+				EA5A13B22A3BA295003B165D /* ColorCodeScannerApp.swift in Sources */,
+				EA5A13D32A3BA3F0003B165D /* MainScannerWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A13C02A3BA2F3003B165D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A13CE2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */,
+				EA5A13DB2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */,
+				EA5A13D22A3BA3F0003B165D /* SuccessEventPage.swift in Sources */,
+				EA5A13C22A3BA2F3003B165D /* ColorCodeScannerApp.swift in Sources */,
+				EA5A13D42A3BA3F0003B165D /* MainScannerWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A13BA2A3BA297003B165D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA5A13BB2A3BA297003B165D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5A13BD2A3BA297003B165D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ674N2B82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorCodeScanner/jabcode/libs/device",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moshi.ColorCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorCodeScanner/Helpers/ColorCodeScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5A13BE2A3BA297003B165D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = VJ674N2B82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorCodeScanner/jabcode/libs/device",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moshi.ColorCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorCodeScanner/Helpers/ColorCodeScanner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA5A13C82A3BA2F3003B165D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorCodeScanner/jabcode/libs/simulator",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moshi.ColorCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorCodeScanner/Helpers/ColorCodeScanner (Simulator)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5A13C92A3BA2F3003B165D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorCodeScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorCodeScanner/jabcode/libs/simulator",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moshi.ColorCodeScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorCodeScanner/Helpers/ColorCodeScanner (Simulator)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A13A92A3BA295003B165D /* Build configuration list for PBXProject "ColorCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A13BA2A3BA297003B165D /* Debug */,
+				EA5A13BB2A3BA297003B165D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A13BC2A3BA297003B165D /* Build configuration list for PBXNativeTarget "ColorCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A13BD2A3BA297003B165D /* Debug */,
+				EA5A13BE2A3BA297003B165D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A13C72A3BA2F3003B165D /* Build configuration list for PBXNativeTarget "ColorCodeScanner (Simulator)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A13C82A3BA2F3003B165D /* Debug */,
+				EA5A13C92A3BA2F3003B165D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A13A62A3BA295003B165D /* Project object */;
+}
