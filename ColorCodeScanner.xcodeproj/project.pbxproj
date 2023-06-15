@@ -25,6 +25,8 @@
 		EA5A13DF2A3BA528003B165D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */; };
 		EA5A13E12A3BA53D003B165D /* libjabcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13E02A3BA53D003B165D /* libjabcode.a */; };
 		EA5A13E32A3BA54D003B165D /* libjabcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A13E22A3BA54D003B165D /* libjabcode.a */; };
+		EA5A13E62A3BAA6A003B165D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13E52A3BAA6A003B165D /* SplashScreen.swift */; };
+		EA5A13E72A3BAA6A003B165D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A13E52A3BAA6A003B165D /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,7 @@
 		EA5A13DD2A3BA51F003B165D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EA5A13E02A3BA53D003B165D /* libjabcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjabcode.a; path = ColorCodeScanner/jabcode/libs/device/libjabcode.a; sourceTree = "<group>"; };
 		EA5A13E22A3BA54D003B165D /* libjabcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjabcode.a; path = ColorCodeScanner/jabcode/libs/simulator/libjabcode.a; sourceTree = "<group>"; };
+		EA5A13E52A3BAA6A003B165D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 				EA5A13CC2A3BA3E6003B165D /* ColorQRScanner.swift */,
 				EA5A13D02A3BA3F0003B165D /* MainScannerWindow.swift */,
 				EA5A13CF2A3BA3F0003B165D /* SuccessEventPage.swift */,
+				EA5A13E52A3BAA6A003B165D /* SplashScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5A13E62A3BAA6A003B165D /* SplashScreen.swift in Sources */,
 				EA5A13CD2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */,
 				EA5A13DA2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */,
 				EA5A13D12A3BA3F0003B165D /* SuccessEventPage.swift in Sources */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5A13E72A3BAA6A003B165D /* SplashScreen.swift in Sources */,
 				EA5A13CE2A3BA3E6003B165D /* ColorQRScanner.swift in Sources */,
 				EA5A13DB2A3BA4A8003B165D /* JabcodeDecoder.m in Sources */,
 				EA5A13D22A3BA3F0003B165D /* SuccessEventPage.swift in Sources */,
